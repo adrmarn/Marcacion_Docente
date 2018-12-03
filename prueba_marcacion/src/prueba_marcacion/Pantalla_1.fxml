@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="549.0" prefWidth="942.0" style="-fx-background-image: url('file:/C:/Users/amarin/Pictures/Fondo-4.png');" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prueba_marcacion.FXMLDocumentController">
+    <children>
+        <Button fx:id="boton_entrada" layoutX="351.0" layoutY="369.0" onAction="#handleButtonAction" prefHeight="74.0" prefWidth="246.0" text="ENTRADA">
+         <font>
+            <Font name="Agency FB Bold" size="50.0" />
+         </font></Button>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <ComboBox fx:id="lista_doc" layoutX="176.0" layoutY="216.0" prefHeight="42.0" prefWidth="594.0" />
+      <Label layoutX="126.0" layoutY="25.0" text="FACULTAD DE INGENIERÍA, ARQUITECTURA Y DISEÑO">
+         <font>
+            <Font name="Agency FB Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="243.0" layoutY="87.0" text="SISTEMA DE MARCACIÓN DOCENTE">
+         <font>
+            <Font name="Agency FB Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="412.0" layoutY="157.0" text="DOCENTE">
+         <font>
+            <Font name="Agency FB Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="344.0" text="DÍA">
+         <font>
+            <Font name="Agency FB Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="375.0" text="HORA">
+         <font>
+            <Font name="Agency FB Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="406.0" text="TURNO">
+         <font>
+            <Font name="Agency FB Bold" size="20.0" />
+         </font>
+      </Label>
+    </children>
+   <effect>
+      <Blend />
+   </effect>
+</AnchorPane>

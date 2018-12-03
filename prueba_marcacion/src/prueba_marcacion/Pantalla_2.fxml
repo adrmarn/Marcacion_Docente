@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="568.0" prefWidth="939.0" style="-fx-background-image: url('file:/C:/Users/amarin/Pictures/Fondo-4.png');" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prueba_marcacion.Pantalla_2Controller">
+   <children>
+      <Label layoutX="240.0" layoutY="63.0" text="SISTEMA DE MARCACIÓN DOCENTE">
+         <font>
+            <Font name="Agency FB Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="136.0" layoutY="14.0" text="FACULTAD DE INGENIERÍA, ARQUITECTURA Y DISEÑO">
+         <font>
+            <Font name="Agency FB Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="410.0" layoutY="136.0" text="DOCENTE">
+         <font>
+            <Font name="Agency FB Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="148.0" layoutY="185.0" prefHeight="49.0" prefWidth="646.0" style="-fx-background-color: LIGTH WHITE;" textAlignment="CENTER">
+         <font>
+            <Font name="Agency FB Bold" size="36.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </Label>
+      <Label layoutX="185.0" layoutY="255.0" style="-fx-background-color: WHITE;" text="MATERIA">
+         <font>
+            <Font name="Agency FB Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="328.0" layoutY="255.0" style="-fx-background-color: WHITE;" text="GRUPO">
+         <font>
+            <Font name="Agency FB Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="444.0" layoutY="255.0" style="-fx-background-color: WHITE;" text="TIPO">
+         <font>
+            <Font name="Agency FB Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="561.0" layoutY="255.0" style="-fx-background-color: WHITE;" text="HORARIO">
+         <font>
+            <Font name="Agency FB Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="702.0" layoutY="255.0" style="-fx-background-color: WHITE;" text="SALÓN">
+         <font>
+            <Font name="Agency FB Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="294.0" layoutY="516.0" text="HORA DE ENTRADA">
+         <font>
+            <Font name="Agency FB Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="boton_acep" layoutX="777.0" layoutY="486.0" mnemonicParsing="false" text="ACEPTAR">
+         <font>
+            <Font name="Agency FB Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

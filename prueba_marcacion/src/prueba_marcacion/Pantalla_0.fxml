@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="523.0" prefWidth="940.0" style="-fx-background-image: url('file:/C:/Users/amarin/Pictures/Fondo-4.png');" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prueba_marcacion.Pantalla_0Controller">
+   <children>
+      <Button fx:id="boton_md" layoutX="385.0" layoutY="274.0" mnemonicParsing="false" prefHeight="81.0" prefWidth="180.0" text="MARCACIÓN DOCENTE" onAction="nuevaVentana">
+         <font>
+            <Font name="Agency FB Bold" size="20.0" />
+         </font></Button>
+      <Button fx:id="boton_rau" layoutX="391.0" layoutY="168.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="168.0" text="REPORTE DE AUSENCIAS">
+         <font>
+            <Font name="Agency FB Bold" size="17.0" />
+         </font></Button>
+      <Button fx:id="boton_tr" layoutX="611.0" layoutY="168.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="168.0" text="REPORTE DE TRADANZAS">
+         <font>
+            <Font name="Agency FB Bold" size="17.0" />
+         </font></Button>
+      <Button fx:id="boton_ras" layoutX="161.0" layoutY="168.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="168.0" text="REPORTE DE ASISTENCIA">
+         <font>
+            <Font name="Agency FB Bold" size="17.0" />
+         </font></Button>
+      <Label layoutX="123.0" layoutY="14.0" text="FACULTAD DE INGENIERÍA, ARQUITECTURA Y DISEÑO">
+         <font>
+            <Font name="Agency FB Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="240.0" layoutY="72.0" text="SISTEMA DE MARCACIÓN DOCENTE">
+         <font>
+            <Font name="Agency FB Bold" size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
